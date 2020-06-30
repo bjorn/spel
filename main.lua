@@ -87,7 +87,7 @@ function love.update(dt)
 end
 
 function love.draw()
-    love.graphics.draw(bos, 0, 0, 0, 0.5, 0.5)
+    love.graphics.draw(bos, 0, -100, 0, 0.55, 0.55)
 --   love.graphics.print("Der bunte Teddy", 400, 300)
     if beer_direction >= 0 then
        love.graphics.draw(beer, current_frame, beer_x, beer_y, 0, 0.6, 0.6)
